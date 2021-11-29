@@ -48,10 +48,12 @@ let randomVerb = arrayVerbs[Math.floor(Math.random() * arrayVerbs.length)];
 
 function text() {
     story.innerHTML += document.querySelector('input').value + ' '
-        + randomName + ' ' + randomObject + ' ' + randomTemperature + ' ' + randomVerb + ' ' + randomPlace ;
+        + randomName + ' ' + randomObject + ' ' + randomTemperature + ' ' + randomVerb + ' ' + randomPlace + '<br>' ;
 }
 
 generator.addEventListener("click", text);
+
+
 
 
 

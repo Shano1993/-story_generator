@@ -1,0 +1,25 @@
+
+html {
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: darkgrey;
+}
+
+h1 {
+    text-align: center;
+    font-size: 5rem;
+    text-decoration-line: underline;
+}
+
+span {
+    font-size: 2.5rem;
+    margin-left: 2rem;
+}
+
+p {
+    font-size: 2.5rem;
+    margin-left: 2rem;
+}
